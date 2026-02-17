@@ -23,7 +23,7 @@ The TOPSIS project is also deployed as a web application, allowing users to run 
 TOPSIS method directly through a browser interface.
 
 🔗 **Live Website:**  
-https://topsis-six.vercel.app/
+[https://topsis-six.vercel.app/](https://topsis-102317087-9ow5.vercel.app/)
 
 ---
 
@@ -33,11 +33,11 @@ https://topsis-six.vercel.app/
 2. Other dependencies that come installed with this package are :-
    - pandas
    - numpy
-3. Package listed on PyPI:- https://pypi.org/project/Topsis-Kalpesh-102483077/1.0.2/
+3. Package listed on PyPI:-[https://pypi.org/project/Topsis-Kalpesh-102483077/1.0.2/](https://pypi.org/project/Topsis-Kalpesh-102317087/)
 4. Use the following command to install this package:-
 
    ```bash
-   pip install Topsis-Kalpesh-102483077
+   pip install Topsis-Kalpesh-102317087
    ```
 
 ---
