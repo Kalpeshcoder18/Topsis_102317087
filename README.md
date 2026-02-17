@@ -1,9 +1,9 @@
 # TOPSIS Implementation in Python
 
-- **Course:** UCS654 - Predictive Analytics using Statistics  
-- **Assignment:** Assignment-1 (TOPSIS)  
-- **Author:** Nimish Agrawal
-- **Roll Number:** 102483077  
+- **Course:** UCS654 - Predictive Analytics using Statistics
+- **Assignment:** Assignment-1 (TOPSIS)
+- **Author:** Kalpesh Paliwal
+- **Roll Number:** 102483077
 
 ---
 
@@ -28,25 +28,30 @@ https://topsis-six.vercel.app/
 ---
 
 ## Installation - USER MANUAL
-1. Topsis-Nimish-102483077 requires Python3 to run.
+
+1. Topsis-Kalpesh-102483077 requires Python3 to run.
 2. Other dependencies that come installed with this package are :-
-    - pandas
-    - numpy
-3. Package listed on PyPI:- https://pypi.org/project/Topsis-Nimish-102483077/1.0.2/
+   - pandas
+   - numpy
+3. Package listed on PyPI:- https://pypi.org/project/Topsis-Kalpesh-102483077/1.0.2/
 4. Use the following command to install this package:-
 
-    ```bash
-    pip install Topsis-Nimish-102483077
-    ```
+   ```bash
+   pip install Topsis-Kalpesh-102483077
+   ```
 
 ---
 
 ## Usage
+
 Run the following command in command prompt:
+
 ```bash
 topsis <inputFile> <weights> <impacts> <outputFile>
 ```
+
 Example:
+
 ```bash
 topsis sample.csv "1,1,1,1" "+,+,-,+" result.csv
 ```

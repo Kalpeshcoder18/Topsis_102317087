@@ -12,22 +12,22 @@ Using this package, users can rank multiple alternatives based on several numeri
 
 ## Project Information
 
-| Field | Details |
-|-----|--------|
-| Course | Project-1 |
-| Author | Nimish Agrawal |
-| Roll No | 102483077 |
-| Group | 3C34 |
+| Field   | Details         |
+| ------- | --------------- |
+| Course  | Project-1       |
+| Author  | Kalpesh Paliwal |
+| Roll No | 102483077       |
+| Group   | 3C34            |
 
 ---
 
 ## Features
 
-- Easy-to-use command-line interface  
-- Supports customizable weights and impacts  
-- Handles benefit (`+`) and cost (`-`) criteria  
-- Accepts CSV input and produces CSV output  
-- Automatically computes TOPSIS score and rank  
+- Easy-to-use command-line interface
+- Supports customizable weights and impacts
+- Handles benefit (`+`) and cost (`-`) criteria
+- Accepts CSV input and produces CSV output
+- Automatically computes TOPSIS score and rank
 
 ---
 
@@ -36,7 +36,7 @@ Using this package, users can rank multiple alternatives based on several numeri
 Use the Python package manager `pip` to install the package:
 
 ```bash
-pip install Topsis-Nimish-102483077
+pip install Topsis-Kalpesh-102483077
 ```
 
 ```bash
@@ -45,12 +45,11 @@ topsis <input_file.csv> <weights> <impacts>
 
 ## Arguments
 
-| Argument           |Description                                                                                                              |
+| Argument           | Description                                                                                                              |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
 | `<input_file.csv>` | Path to CSV file. First column must contain alternative names. Remaining columns must contain numerical criteria values. |
 | `<weights>`        | Comma-separated weights for each criterion (example: `0.2,0.2,0.2,0.2,0.2`).                                             |
 | `<impacts>`        | Comma-separated impacts for each criterion (`+` for benefit, `-` for cost).                                              |
-
 
 ## Example
 
@@ -73,7 +72,6 @@ Weights
 
 0.2,0.2,0.2,0.2,0.2
 
-
 Impacts
 
 +,+,+,-,-
@@ -88,40 +86,38 @@ topsis data.csv "0.2,0.2,0.2,0.2,0.2" "+,+,+,-,-"
 
 The output file (output.csv) contains the original data along with two additional columns.
 
-| Fund | P1 | P2 | P3 | P4 | P5 | Topsis Score | Rank |
-| ---- | -- | -- | -- | -- | -- | ------------ | ---- |
-| M1   | …  | …  | …  | …  | …  | 0.5123       | 6    |
-| M2   | …  | …  | …  | …  | …  | 0.4786       | 8    |
-| M3   | …  | …  | …  | …  | …  | 0.5639       | 5    |
-| M4   | …  | …  | …  | …  | …  | 0.7214       | 1    |
-| M5   | …  | …  | …  | …  | …  | 0.6042       | 4    |
-| M6   | …  | …  | …  | …  | …  | 0.6897       | 2    |
-| M7   | …  | …  | …  | …  | …  | 0.6588       | 3    |
-| M8   | …  | …  | …  | …  | …  | 0.4951       | 7    |
-
+| Fund | P1  | P2  | P3  | P4  | P5  | Topsis Score | Rank |
+| ---- | --- | --- | --- | --- | --- | ------------ | ---- |
+| M1   | …   | …   | …   | …   | …   | 0.5123       | 6    |
+| M2   | …   | …   | …   | …   | …   | 0.4786       | 8    |
+| M3   | …   | …   | …   | …   | …   | 0.5639       | 5    |
+| M4   | …   | …   | …   | …   | …   | 0.7214       | 1    |
+| M5   | …   | …   | …   | …   | …   | 0.6042       | 4    |
+| M6   | …   | …   | …   | …   | …   | 0.6897       | 2    |
+| M7   | …   | …   | …   | …   | …   | 0.6588       | 3    |
+| M8   | …   | …   | …   | …   | …   | 0.4951       | 7    |
 
 Output Columns
-| Column       | Meaning                               |
+| Column | Meaning |
 | ------------ | ------------------------------------- |
-| Topsis Score | Calculated TOPSIS performance score   |
-| Rank         | Rank based on TOPSIS score (1 = best) |
-
+| Topsis Score | Calculated TOPSIS performance score |
+| Rank | Rank based on TOPSIS score (1 = best) |
 
 ## Input File Requirements
-- Input file must be a valid CSV  
-- First column must contain alternative names  
-- All remaining columns must contain numerical values  
-- No categorical or missing values allowed 
 
+- Input file must be a valid CSV
+- First column must contain alternative names
+- All remaining columns must contain numerical values
+- No categorical or missing values allowed
 
 ## Error Handling
 
 The package validates inputs and raises errors for:
 
-- Mismatch between the number of criteria and weights  
-- Mismatch between the number of criteria and impacts  
-- Invalid impact values (only `+` or `-` allowed)  
-- Incorrect CSV structure  
+- Mismatch between the number of criteria and weights
+- Mismatch between the number of criteria and impacts
+- Invalid impact values (only `+` or `-` allowed)
+- Incorrect CSV structure
 
 ## License
 
@@ -129,6 +125,7 @@ This project is licensed under the **MIT License**.
 See the [LICENSE](https://opensource.org/licenses/MIT) file for details.
 
 ## Contact
+
 For questions or feedback, please contact:
-Nimish Agrawal
-📧 nimish4agrawal@gmail.com
+Kalpesh Paliwal
+📧 klpshplwl455@gmail.com
