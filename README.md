@@ -33,7 +33,7 @@ TOPSIS method directly through a browser interface.
 2. Other dependencies that come installed with this package are :-
    - pandas
    - numpy
-3. Package listed on PyPI:-[https://pypi.org/project/Topsis-Kalpesh-102483077/1.0.2/](https://pypi.org/project/Topsis-Kalpesh-102317087/)
+3. Package listed on PyPI:-[https://pypi.org/project/Topsis-Kalpesh-102317087/1.0.2/](https://pypi.org/project/Topsis-Kalpesh-102317087/)
 4. Use the following command to install this package:-
 
    ```bash
